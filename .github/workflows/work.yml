@@ -22,5 +22,5 @@ jobs:
         env:
           cookie_javbus: ${{ secrets.cookie_javbus }}
         run: |
-          python3 ../javbus/javbus.py
+          python3 ../Javbus-Checkin/javbus.py
           
