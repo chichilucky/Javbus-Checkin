@@ -1,6 +1,6 @@
 # javbus
 ### javbus论坛每日签到 <br>
-根据https://github.com/leeairw/Enshan 项目修改而来
+根据https://github.com/husterxin/javbus 项目修改而来
 
 
 ### 使用方法<br> 
