@@ -13,7 +13,8 @@ jobs:
       - name: 'setup python'
         uses: actions/setup-python@master
         with: 
-          python-version: 3.7
+          python-version: 3.11
+          
 
       - name: requirements
         run : pip3 install -r requirements.txt
@@ -22,5 +23,5 @@ jobs:
         env:
           cookie_javbus: ${{ secrets.cookie_javbus }}
         run: |
-          python3 ../Javbus-Checkin/javbus.py
+          python3 ../javbus/javbus.py
           
